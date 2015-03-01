@@ -1,0 +1,399 @@
+stream error Network error: ws://localhost:3000/websocket: connect ECONNREFUSED
+[[[[[ ~/repos/forums_meteor/test_jasmine_circle ]]]]]
+
+=> Started proxy.
+=> Started MongoDB.
+[34mI20150301-18:03:24.632(11)? [39m** You've set up some data subscriptions with Meteor.publish(), but
+[34mI20150301-18:03:24.633(11)? [39m** you still have autopublish turned on. Because autopublish is still
+[34mI20150301-18:03:24.634(11)? [39m** on, your Meteor.publish() calls won't have much effect. All data
+[34mI20150301-18:03:24.634(11)? [39m** will still be sent to all clients.
+[34mI20150301-18:03:24.634(11)? [39m**
+[34mI20150301-18:03:24.634(11)? [39m** Turn off autopublish by removing the autopublish package:
+[34mI20150301-18:03:24.634(11)? [39m**
+[34mI20150301-18:03:24.634(11)? [39m**   $ meteor remove autopublish
+[34mI20150301-18:03:24.634(11)? [39m**
+[34mI20150301-18:03:24.634(11)? [39m** .. and make sure you have Meteor.publish() and Meteor.subscribe() calls
+[34mI20150301-18:03:24.634(11)? [39m** for each collection that you want clients to see.
+[34mI20150301-18:03:24.634(11)? [39m
+[34mI20150301-18:03:24.635(11)? [39m[velocity] adding velocity core
+[34mI20150301-18:03:24.635(11)? [39m[velocity] Not adding mirror-registrar because NODE_ENV is development and IS_MIRROR is false
+[34mI20150301-18:03:24.837(11)? [39m[velocity] Velocity not started. Queueing func
+[34mI20150301-18:03:24.853(11)? [39m[node-soft-mirror] adding server code
+[34mI20150301-18:03:24.854(11)? [39m[velocity] Velocity not started. Queueing func
+[34mI20150301-18:03:24.858(11)? [39m[velocity] Server startup
+[34mI20150301-18:03:24.858(11)? [39m[velocity] app dir /Users/maxim/repos/forums_meteor/test_jasmine_circle
+[34mI20150301-18:03:24.858(11)? [39m[velocity] config = {
+[34mI20150301-18:03:24.859(11)? [39m  "jasmine-client-integration": {
+[34mI20150301-18:03:24.859(11)? [39m    "regex": "^tests/jasmine/client/integration/.+\\.(js|coffee|litcoffee|coffee\\.md)$",
+[34mI20150301-18:03:24.859(11)? [39m    "name": "jasmine-client-integration",
+[34mI20150301-18:03:24.859(11)? [39m    "_regexp": {}
+[34mI20150301-18:03:24.859(11)? [39m  },
+[34mI20150301-18:03:24.859(11)? [39m  "jasmine-client-unit": {
+[34mI20150301-18:03:24.859(11)? [39m    "regex": "^tests/jasmine/client/unit/.+\\.(js|coffee|litcoffee|coffee\\.md)$",
+[34mI20150301-18:03:24.860(11)? [39m    "name": "jasmine-client-unit",
+[34mI20150301-18:03:24.860(11)? [39m    "_regexp": {}
+[34mI20150301-18:03:24.860(11)? [39m  },
+[34mI20150301-18:03:24.860(11)? [39m  "jasmine-server-integration": {
+[34mI20150301-18:03:24.860(11)? [39m    "regex": "^tests/jasmine/server/integration/.+\\.(js|coffee|litcoffee|coffee\\.md)$",
+[34mI20150301-18:03:24.860(11)? [39m    "name": "jasmine-server-integration",
+[34mI20150301-18:03:24.860(11)? [39m    "_regexp": {}
+[34mI20150301-18:03:24.861(11)? [39m  },
+[34mI20150301-18:03:24.861(11)? [39m  "jasmine-server-unit": {
+[34mI20150301-18:03:24.861(11)? [39m    "regex": "^tests/jasmine/server/unit/.+\\.(js|coffee|litcoffee|coffee\\.md)$",
+[34mI20150301-18:03:24.861(11)? [39m    "name": "jasmine-server-unit",
+[34mI20150301-18:03:24.861(11)? [39m    "_regexp": {}
+[34mI20150301-18:03:24.861(11)? [39m  }
+[34mI20150301-18:03:24.861(11)? [39m}
+[34mI20150301-18:03:24.862(11)? [39m[velocity] resetting the world
+[34mI20150301-18:03:24.862(11)? [39m[velocity] frameworks with disable auto reset: []
+[34mI20150301-18:03:24.877(11)? [39m[velocity-node-mirror] Server restarted.
+[34mI20150301-18:03:24.877(11)? [39m[velocity-node-mirror] Aggressively restarting all mirrors
+[34mI20150301-18:03:24.889(11)? [39m[node-soft-mirror]: LongRunningChildProcess.constructor(taskName=jasmine-client-integration)
+[34mI20150301-18:03:24.889(11)? [39m[node-soft-mirror]: LongRunningChildProcess.readPid()
+[34mI20150301-18:03:24.889(11)? [39m[node-soft-mirror]: LongRunningChildProcess.readPid returns 13682
+[34mI20150301-18:03:24.889(11)? [39m[node-soft-mirror]: LongRunningChildProcess.isRunning returns false
+[34mI20150301-18:03:24.890(11)? [39m[node-soft-mirror] Mirror for framework jasmine-client-integration is not running
+[34mI20150301-18:03:24.890(11)? [39m[node-soft-mirror]: LongRunningChildProcess.constructor(taskName=jasmine-server-integration)
+[34mI20150301-18:03:24.890(11)? [39m[node-soft-mirror]: LongRunningChildProcess.readPid()
+[34mI20150301-18:03:24.890(11)? [39m[node-soft-mirror]: LongRunningChildProcess.readPid returns 13683
+[34mI20150301-18:03:24.890(11)? [39m[node-soft-mirror]: LongRunningChildProcess.isRunning returns false
+[34mI20150301-18:03:24.890(11)? [39m[node-soft-mirror] Mirror for framework jasmine-server-integration is not running
+[34mI20150301-18:03:24.891(11)? [39m[node-soft-mirror] Aggressively reload client
+=> Started your app.
+
+=> App running at: http://localhost:3000/
+[34mI20150301-18:03:24.941(11)? [39m[velocity] Target framework for tests/jasmine/server/unit/package-stubs.js is jasmine-server-unit
+[34mI20150301-18:03:24.941(11)? [39m[velocity] Target framework for tests/jasmine/server/unit/packageMocksSpec.js is jasmine-server-unit
+[34mI20150301-18:03:24.963(11)? [39m[velocity] Target framework for tests/jasmine/client/integration/sample/spec/PlayerSpec.js is jasmine-client-integration
+[34mI20150301-18:03:24.964(11)? [39m[velocity] Target framework for tests/jasmine/client/integration/sample/spec/SpecMatchers.js is jasmine-client-integration
+[34mI20150301-18:03:24.965(11)? [39m[velocity] Target framework for tests/jasmine/client/integration/sample/src/Player.js is jasmine-client-integration
+[34mI20150301-18:03:24.965(11)? [39m[velocity] Target framework for tests/jasmine/client/integration/sample/src/Song.js is jasmine-client-integration
+[34mI20150301-18:03:24.966(11)? [39m[velocity] Target framework for tests/jasmine/client/unit/sample/spec/PlayerSpec.js is jasmine-client-unit
+[34mI20150301-18:03:24.967(11)? [39m[velocity] Target framework for tests/jasmine/client/unit/sample/spec/SpecMatchers.js is jasmine-client-unit
+[34mI20150301-18:03:24.968(11)? [39m[velocity] Target framework for tests/jasmine/client/unit/sample/src/Player.js is jasmine-client-unit
+[34mI20150301-18:03:24.969(11)? [39m[velocity] Target framework for tests/jasmine/client/unit/sample/src/Song.js is jasmine-client-unit
+[34mI20150301-18:03:24.972(11)? [39m[velocity] Target framework for tests/jasmine/server/integration/sample/spec/PlayerSpec.js is jasmine-server-integration
+[34mI20150301-18:03:24.973(11)? [39m[velocity] Target framework for tests/jasmine/server/integration/sample/spec/SpecMatchers.js is jasmine-server-integration
+[34mI20150301-18:03:24.973(11)? [39m[velocity] Target framework for tests/jasmine/server/integration/sample/src/Player.js is jasmine-server-integration
+[34mI20150301-18:03:24.974(11)? [39m[velocity] Target framework for tests/jasmine/server/integration/sample/src/Song.js is jasmine-server-integration
+[34mI20150301-18:03:24.982(11)? [39m[velocity] Target framework for tests/jasmine/server/unit/sample/spec/PlayerSpec.js is jasmine-server-unit
+[34mI20150301-18:03:24.983(11)? [39m[velocity] Target framework for tests/jasmine/server/unit/sample/spec/SpecMatchers.js is jasmine-server-unit
+[34mI20150301-18:03:24.984(11)? [39m[velocity] Target framework for tests/jasmine/server/unit/sample/src/Player.js is jasmine-server-unit
+[34mI20150301-18:03:24.985(11)? [39m[velocity] Target framework for tests/jasmine/server/unit/sample/src/Song.js is jasmine-server-unit
+[34mI20150301-18:03:24.986(11)? [39m[velocity] File scan complete, now watching /tests
+[34mI20150301-18:03:24.987(11)? [39m[velocity] Triggering queued startup functions
+[34mI20150301-18:03:24.995(11)? [39m[proxy-package-sync] Test file added tests/jasmine/server/unit/package-stubs.js
+[34mI20150301-18:03:24.995(11)? [39m[proxy-package-sync] Test file added tests/jasmine/server/unit/packageMocksSpec.js
+[34mI20150301-18:03:24.996(11)? [39m[proxy-package-sync] Test file added tests/jasmine/client/integration/sample/spec/PlayerSpec.js
+[34mI20150301-18:03:24.997(11)? [39m[proxy-package-sync] Test file added tests/jasmine/client/integration/sample/spec/SpecMatchers.js
+[34mI20150301-18:03:24.998(11)? [39m[sanjo:jasmine]: Starting mirror for jasmine-client-integration
+[34mI20150301-18:03:25.009(11)? [39m[sanjo:jasmine]: Starting mirror for jasmine-server-integration
+[34mI20150301-18:03:25.011(11)? [39m[proxy-package-sync] Test file added tests/jasmine/client/integration/sample/src/Player.js
+[34mI20150301-18:03:25.013(11)? [39m[proxy-package-sync] Test file added tests/jasmine/client/integration/sample/src/Song.js
+[34mI20150301-18:03:25.016(11)? [39m[proxy-package-sync] Test file added tests/jasmine/client/unit/sample/spec/PlayerSpec.js
+[34mI20150301-18:03:25.017(11)? [39m[proxy-package-sync] Test file added tests/jasmine/client/unit/sample/spec/SpecMatchers.js
+[34mI20150301-18:03:25.018(11)? [39m[proxy-package-sync] Test file added tests/jasmine/client/unit/sample/src/Player.js
+[34mI20150301-18:03:25.019(11)? [39m[proxy-package-sync] Test file added tests/jasmine/client/unit/sample/src/Song.js
+[34mI20150301-18:03:25.021(11)? [39m[proxy-package-sync] Test file added tests/jasmine/server/integration/sample/spec/PlayerSpec.js
+[34mI20150301-18:03:25.022(11)? [39m[proxy-package-sync] Test file added tests/jasmine/server/integration/sample/spec/SpecMatchers.js
+[34mI20150301-18:03:25.023(11)? [39m[proxy-package-sync] Test file added tests/jasmine/server/integration/sample/src/Player.js
+[34mI20150301-18:03:25.025(11)? [39m[proxy-package-sync] Test file added tests/jasmine/server/integration/sample/src/Song.js
+[34mI20150301-18:03:25.025(11)? [39m[proxy-package-sync] Test file added tests/jasmine/server/unit/sample/spec/PlayerSpec.js
+[34mI20150301-18:03:25.025(11)? [39m[proxy-package-sync] Test file added tests/jasmine/server/unit/sample/spec/SpecMatchers.js
+[34mI20150301-18:03:25.026(11)? [39m[proxy-package-sync] Test file added tests/jasmine/server/unit/sample/src/Player.js
+[34mI20150301-18:03:25.026(11)? [39m[proxy-package-sync] Test file added tests/jasmine/server/unit/sample/src/Song.js
+[34mI20150301-18:03:25.105(11)? [39m[velocity] Mirror requested { framework: 'jasmine-client-integration',
+[34mI20150301-18:03:25.105(11)? [39m  port: 58426,
+[34mI20150301-18:03:25.105(11)? [39m  rootUrlPath: '?jasmine=true',
+[34mI20150301-18:03:25.106(11)? [39m  host: 'http://localhost:58426/',
+[34mI20150301-18:03:25.106(11)? [39m  rootUrl: 'http://localhost:58426/?jasmine=true' }
+[34mI20150301-18:03:25.106(11)? [39m[node-soft-mirror]: LongRunningChildProcess.isRunning returns false
+[34mI20150301-18:03:25.109(11)? [39m[node-soft-mirror]: LongRunningChildProcess.spawn() { command: '/Users/maxim/.meteor/packages/meteor-tool/.1.0.41.1e5lsy3++os.osx.x86_64+web.browser+web.cordova/meteor-tool-os.osx.x86_64/dev_bundle/bin/node',
+[34mI20150301-18:03:25.109(11)? [39m  args: [ '/Users/maxim/repos/forums_meteor/test_jasmine_circle/.meteor/local/build/main.js' ],
+[34mI20150301-18:03:25.109(11)? [39m  options: 
+[34mI20150301-18:03:25.109(11)? [39m   { detached: true,
+[34mI20150301-18:03:25.109(11)? [39m     cwd: '/Users/maxim/repos/forums_meteor/test_jasmine_circle',
+[34mI20150301-18:03:25.109(11)? [39m     env: 
+[34mI20150301-18:03:25.109(11)? [39m      { PORT: 58426,
+[34mI20150301-18:03:25.109(11)? [39m        HOST: 'http://localhost:58426/',
+[34mI20150301-18:03:25.109(11)? [39m        ROOT_URL_PATH: '?jasmine=true',
+[34mI20150301-18:03:25.109(11)? [39m        ROOT_URL: 'http://localhost:58426/?jasmine=true',
+[34mI20150301-18:03:25.110(11)? [39m        FRAMEWORK: 'jasmine-client-integration',
+[34mI20150301-18:03:25.110(11)? [39m        MONGO_URL: 'mongodb://127.0.0.1:3001/jasmine-client-integration',
+[34mI20150301-18:03:25.110(11)? [39m        PARENT_URL: 'http://localhost:3000/',
+[34mI20150301-18:03:25.110(11)? [39m        IS_MIRROR: true,
+[34mI20150301-18:03:25.110(11)? [39m        METEOR_SETTINGS: '{}',
+[34mI20150301-18:03:25.110(11)? [39m        TERM_PROGRAM: 'iTerm.app',
+[34mI20150301-18:03:25.110(11)? [39m        rvm_bin_path: '/Users/maxim/.rvm/bin',
+[34mI20150301-18:03:25.110(11)? [39m        rvm_quiet_flag: '',
+[34mI20150301-18:03:25.110(11)? [39m        SHELL: '/bin/zsh',
+[34mI20150301-18:03:25.110(11)? [39m        TERM: 'xterm-256color',
+[34mI20150301-18:03:25.110(11)? [39m        rvm_gemstone_url: '',
+[34mI20150301-18:03:25.110(11)? [39m        TMPDIR: '/var/folders/hg/6twvq2gs07v601s1r7y0mrtm0000gn/T/',
+[34mI20150301-18:03:25.111(11)? [39m        rvm_docs_type: '',
+[34mI20150301-18:03:25.111(11)? [39m        Apple_PubSub_Socket_Render: '/private/tmp/com.apple.launchd.MW3p7Ij1Xi/Render',
+[34mI20150301-18:03:25.111(11)? [39m        DOCKER_HOST: 'tcp://docker.local:2375',
+[34mI20150301-18:03:25.111(11)? [39m        __GIT_PROMPT_DIR: '/Users/maxim/.oh-my-zsh/plugins/git-prompt',
+[34mI20150301-18:03:25.111(11)? [39m        OLDPWD: '/Users/maxim/.meteor/packages/meteor-tool/1.0.41/meteor-tool-os.osx.x86_64',
+[34mI20150301-18:03:25.112(11)? [39m        ZSH: '/Users/maxim/.oh-my-zsh',
+[34mI20150301-18:03:25.112(11)? [39m        USER: 'maxim',
+[34mI20150301-18:03:25.112(11)? [39m        NVM_DIR: '/Users/maxim/.nvm',
+[34mI20150301-18:03:25.113(11)? [39m        rvm_gemstone_package_file: '',
+[34mI20150301-18:03:25.114(11)? [39m        COMMAND_MODE: 'unix2003',
+[34mI20150301-18:03:25.114(11)? [39m        _system_type: 'Darwin',
+[34mI20150301-18:03:25.114(11)? [39m        rvm_path: '/Users/maxim/.rvm',
+[34mI20150301-18:03:25.114(11)? [39m        SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.hyJmGtNbjH/Listeners',
+[34mI20150301-18:03:25.114(11)? [39m        __CF_USER_TEXT_ENCODING: '0x1F5:0x0:0x0',
+[34mI20150301-18:03:25.114(11)? [39m        rvm_proxy: '',
+[34mI20150301-18:03:25.114(11)? [39m        PAGER: 'less',
+[34mI20150301-18:03:25.114(11)? [39m        rvm_ruby_file: '',
+[34mI20150301-18:03:25.114(11)? [39m        LSCOLORS: 'Gxfxcxdxbxegedabagacad',
+[34mI20150301-18:03:25.144(11)? [39m        rvm_prefix: '/Users/maxim',
+[34mI20150301-18:03:25.145(11)? [39m        rvm_silent_flag: '',
+[34mI20150301-18:03:25.145(11)? [39m        PATH: '/Users/maxim/google-cloud-sdk/bin:./bin:/Users/maxim/npm/bin:/Users/maxim/.rvm/gems/ruby-2.1.2@global/bin:/Users/maxim/.rvm/gems/ruby-2.1.2@global/bin:/Users/maxim/.rvm/rubies/ruby-2.1.2/bin:/Users/maxim/.rvm/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/Users/maxim/bin:/Users/maxim/.manymo/bin:/Users/maxim/.manymo/bin:/Users/maxim/.rvm/bin:/Users/maxim/.manymo/bin',
+[34mI20150301-18:03:25.145(11)? [39m        rvm_ruby_make: '',
+[34mI20150301-18:03:25.145(11)? [39m        NVM_NODEJS_ORG_MIRROR: 'http://nodejs.org/dist',
+[34mI20150301-18:03:25.145(11)? [39m        PWD: '/Users/maxim/repos/forums_meteor/test_jasmine_circle',
+[34mI20150301-18:03:25.145(11)? [39m        EDITOR: 'atom',
+[34mI20150301-18:03:25.145(11)? [39m        LANG: 'en_AU.UTF-8',
+[34mI20150301-18:03:25.145(11)? [39m        rvm_sdk: '',
+[34mI20150301-18:03:25.145(11)? [39m        ITERM_PROFILE: 'Default',
+[34mI20150301-18:03:25.145(11)? [39m        XPC_FLAGS: '0x0',
+[34mI20150301-18:03:25.145(11)? [39m        _system_arch: 'x86_64',
+[34mI20150301-18:03:25.146(11)? [39m        _system_version: '10.10',
+[34mI20150301-18:03:25.146(11)? [39m        XPC_SERVICE_NAME: '0',
+[34mI20150301-18:03:25.146(11)? [39m        rvm_version: '1.24.7 (stable)',
+[34mI20150301-18:03:25.146(11)? [39m        COLORFGBG: '7;0',
+[34mI20150301-18:03:25.146(11)? [39m        HOME: '/Users/maxim',
+[34mI20150301-18:03:25.146(11)? [39m        SHLVL: '1',
+[34mI20150301-18:03:25.146(11)? [39m        rvm_script_name: '',
+[34mI20150301-18:03:25.146(11)? [39m        rvm_ruby_mode: '',
+[34mI20150301-18:03:25.146(11)? [39m        VELOCITY_DEBUG: '1',
+[34mI20150301-18:03:25.146(11)? [39m        ITERM_SESSION_ID: 'w0t1p0',
+[34mI20150301-18:03:25.147(11)? [39m        LOGNAME: 'maxim',
+[34mI20150301-18:03:25.147(11)? [39m        LESS: '-R',
+[34mI20150301-18:03:25.147(11)? [39m        rvm_alias_expanded: '',
+[34mI20150301-18:03:25.147(11)? [39m        LC_CTYPE: 'en_AU.UTF-8',
+[34mI20150301-18:03:25.147(11)? [39m        rvm_wrapper_name: '',
+[34mI20150301-18:03:25.147(11)? [39m        GOPATH: '/Users/maxim/gocode',
+[34mI20150301-18:03:25.147(11)? [39m        rvm_nightly_flag: '',
+[34mI20150301-18:03:25.147(11)? [39m        rvm_ruby_make_install: '',
+[34mI20150301-18:03:25.148(11)? [39m        rvm_niceness: '',
+[34mI20150301-18:03:25.148(11)? [39m        SECURITYSESSIONID: '186bd',
+[34mI20150301-18:03:25.148(11)? [39m        _system_name: 'OSX',
+[34mI20150301-18:03:25.148(11)? [39m        MOBILE_DDP_URL: 'http://localhost:3000',
+[34mI20150301-18:03:25.148(11)? [39m        MOBILE_ROOT_URL: 'http://localhost:3000',
+[34mI20150301-18:03:25.148(11)? [39m        MONGO_OPLOG_URL: 'mongodb://127.0.0.1:3001/local',
+[34mI20150301-18:03:25.148(11)? [39m        APP_ID: '1hdd4zn1azjw2d1kcf3ye',
+[34mI20150301-18:03:25.148(11)? [39m        NODE_ENV: 'development',
+[34mI20150301-18:03:25.149(11)? [39m        HTTP_FORWARDED_COUNT: '1',
+[34mI20150301-18:03:25.149(11)? [39m        ENABLE_METEOR_SHELL: 'true',
+[34mI20150301-18:03:25.149(11)? [39m        METEOR_PARENT_PID: '13714',
+[34mI20150301-18:03:25.149(11)? [39m        METEOR_PRINT_ON_LISTEN: 'true' } } }
+[34mI20150301-18:03:25.149(11)? [39m[node-soft-mirror]: LongRunningChildProcess.isRunning returns false
+[34mI20150301-18:03:25.149(11)? [39m[node-soft-mirror]: /Users/maxim/repos/forums_meteor/test_jasmine_circle/.meteor/local/build/programs/server/assets/packages/velocity_node-soft-mirror/lib/spawnScript.js
+[34mI20150301-18:03:25.149(11)? [39m[node-soft-mirror]: The pid of the main Meteor app process is 13714
+[34mI20150301-18:03:25.150(11)? [39m[node-soft-mirror]: LongRunningChildProcess.spawn is spawning 'node'
+[34mI20150301-18:03:25.150(11)? [39m[node-soft-mirror]: LongRunningChildProcess._setPid(pid=13746)
+[34mI20150301-18:03:25.150(11)? [39m[node-soft-mirror]: Saving jasmine-client-integration pid 13746 to /Users/maxim/repos/forums_meteor/test_jasmine_circle/.meteor/local/run/jasmine-client-integration.pid
+[34mI20150301-18:03:25.150(11)? [39m[velocity-node-mirror] Mirror process forked with pid 13746
+[34mI20150301-18:03:25.150(11)? [39m[velocity] Mirror requested { framework: 'jasmine-server-integration',
+[34mI20150301-18:03:25.150(11)? [39m  port: 58427,
+[34mI20150301-18:03:25.150(11)? [39m  rootUrlPath: '',
+[34mI20150301-18:03:25.150(11)? [39m  host: 'http://localhost:58427/',
+[34mI20150301-18:03:25.151(11)? [39m  rootUrl: 'http://localhost:58427/' }
+[34mI20150301-18:03:25.151(11)? [39m[node-soft-mirror]: LongRunningChildProcess.isRunning returns false
+[34mI20150301-18:03:25.151(11)? [39m[node-soft-mirror]: LongRunningChildProcess.spawn() { command: '/Users/maxim/.meteor/packages/meteor-tool/.1.0.41.1e5lsy3++os.osx.x86_64+web.browser+web.cordova/meteor-tool-os.osx.x86_64/dev_bundle/bin/node',
+[34mI20150301-18:03:25.152(11)? [39m  args: [ '/Users/maxim/repos/forums_meteor/test_jasmine_circle/.meteor/local/build/main.js' ],
+[34mI20150301-18:03:25.152(11)? [39m  options: 
+[34mI20150301-18:03:25.152(11)? [39m   { detached: true,
+[34mI20150301-18:03:25.152(11)? [39m     cwd: '/Users/maxim/repos/forums_meteor/test_jasmine_circle',
+[34mI20150301-18:03:25.152(11)? [39m     env: 
+[34mI20150301-18:03:25.152(11)? [39m      { PORT: 58427,
+[34mI20150301-18:03:25.152(11)? [39m        HOST: 'http://localhost:58427/',
+[34mI20150301-18:03:25.153(11)? [39m        ROOT_URL_PATH: '',
+[34mI20150301-18:03:25.153(11)? [39m        ROOT_URL: 'http://localhost:58427/',
+[34mI20150301-18:03:25.153(11)? [39m        FRAMEWORK: 'jasmine-server-integration',
+[34mI20150301-18:03:25.153(11)? [39m        MONGO_URL: 'mongodb://127.0.0.1:3001/jasmine-server-integration',
+[34mI20150301-18:03:25.153(11)? [39m        PARENT_URL: 'http://localhost:3000/',
+[34mI20150301-18:03:25.153(11)? [39m        IS_MIRROR: true,
+[34mI20150301-18:03:25.153(11)? [39m        METEOR_SETTINGS: '{}',
+[34mI20150301-18:03:25.154(11)? [39m        TERM_PROGRAM: 'iTerm.app',
+[34mI20150301-18:03:25.154(11)? [39m        rvm_bin_path: '/Users/maxim/.rvm/bin',
+[34mI20150301-18:03:25.154(11)? [39m        rvm_quiet_flag: '',
+[34mI20150301-18:03:25.154(11)? [39m        SHELL: '/bin/zsh',
+[34mI20150301-18:03:25.154(11)? [39m        TERM: 'xterm-256color',
+[34mI20150301-18:03:25.154(11)? [39m        rvm_gemstone_url: '',
+[34mI20150301-18:03:25.154(11)? [39m        TMPDIR: '/var/folders/hg/6twvq2gs07v601s1r7y0mrtm0000gn/T/',
+[34mI20150301-18:03:25.154(11)? [39m        rvm_docs_type: '',
+[34mI20150301-18:03:25.154(11)? [39m        Apple_PubSub_Socket_Render: '/private/tmp/com.apple.launchd.MW3p7Ij1Xi/Render',
+[34mI20150301-18:03:25.155(11)? [39m        DOCKER_HOST: 'tcp://docker.local:2375',
+[34mI20150301-18:03:25.155(11)? [39m        __GIT_PROMPT_DIR: '/Users/maxim/.oh-my-zsh/plugins/git-prompt',
+[34mI20150301-18:03:25.155(11)? [39m        OLDPWD: '/Users/maxim/.meteor/packages/meteor-tool/1.0.41/meteor-tool-os.osx.x86_64',
+[34mI20150301-18:03:25.155(11)? [39m        ZSH: '/Users/maxim/.oh-my-zsh',
+[34mI20150301-18:03:25.156(11)? [39m        USER: 'maxim',
+[34mI20150301-18:03:25.156(11)? [39m        NVM_DIR: '/Users/maxim/.nvm',
+[34mI20150301-18:03:25.156(11)? [39m        rvm_gemstone_package_file: '',
+[34mI20150301-18:03:25.156(11)? [39m        COMMAND_MODE: 'unix2003',
+[34mI20150301-18:03:25.156(11)? [39m        _system_type: 'Darwin',
+[34mI20150301-18:03:25.156(11)? [39m        rvm_path: '/Users/maxim/.rvm',
+[34mI20150301-18:03:25.156(11)? [39m        SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.hyJmGtNbjH/Listeners',
+[34mI20150301-18:03:25.157(11)? [39m        __CF_USER_TEXT_ENCODING: '0x1F5:0x0:0x0',
+[34mI20150301-18:03:25.157(11)? [39m        rvm_proxy: '',
+[34mI20150301-18:03:25.157(11)? [39m        PAGER: 'less',
+[34mI20150301-18:03:25.157(11)? [39m        rvm_ruby_file: '',
+[34mI20150301-18:03:25.157(11)? [39m        LSCOLORS: 'Gxfxcxdxbxegedabagacad',
+[34mI20150301-18:03:25.157(11)? [39m        rvm_prefix: '/Users/maxim',
+[34mI20150301-18:03:25.157(11)? [39m        rvm_silent_flag: '',
+[34mI20150301-18:03:25.158(11)? [39m        PATH: '/Users/maxim/google-cloud-sdk/bin:./bin:/Users/maxim/npm/bin:/Users/maxim/.rvm/gems/ruby-2.1.2@global/bin:/Users/maxim/.rvm/gems/ruby-2.1.2@global/bin:/Users/maxim/.rvm/rubies/ruby-2.1.2/bin:/Users/maxim/.rvm/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/Users/maxim/bin:/Users/maxim/.manymo/bin:/Users/maxim/.manymo/bin:/Users/maxim/.rvm/bin:/Users/maxim/.manymo/bin',
+[34mI20150301-18:03:25.158(11)? [39m        rvm_ruby_make: '',
+[34mI20150301-18:03:25.158(11)? [39m        NVM_NODEJS_ORG_MIRROR: 'http://nodejs.org/dist',
+[34mI20150301-18:03:25.158(11)? [39m        PWD: '/Users/maxim/repos/forums_meteor/test_jasmine_circle',
+[34mI20150301-18:03:25.158(11)? [39m        EDITOR: 'atom',
+[34mI20150301-18:03:25.158(11)? [39m        LANG: 'en_AU.UTF-8',
+[34mI20150301-18:03:25.158(11)? [39m        rvm_sdk: '',
+[34mI20150301-18:03:25.158(11)? [39m        ITERM_PROFILE: 'Default',
+[34mI20150301-18:03:25.159(11)? [39m        XPC_FLAGS: '0x0',
+[34mI20150301-18:03:25.159(11)? [39m        _system_arch: 'x86_64',
+[34mI20150301-18:03:25.159(11)? [39m        _system_version: '10.10',
+[34mI20150301-18:03:25.159(11)? [39m        XPC_SERVICE_NAME: '0',
+[34mI20150301-18:03:25.159(11)? [39m        rvm_version: '1.24.7 (stable)',
+[34mI20150301-18:03:25.159(11)? [39m        COLORFGBG: '7;0',
+[34mI20150301-18:03:25.159(11)? [39m        HOME: '/Users/maxim',
+[34mI20150301-18:03:25.160(11)? [39m        SHLVL: '1',
+[34mI20150301-18:03:25.160(11)? [39m        rvm_script_name: '',
+[34mI20150301-18:03:25.160(11)? [39m        rvm_ruby_mode: '',
+[34mI20150301-18:03:25.160(11)? [39m        VELOCITY_DEBUG: '1',
+[34mI20150301-18:03:25.160(11)? [39m        ITERM_SESSION_ID: 'w0t1p0',
+[34mI20150301-18:03:25.160(11)? [39m        LOGNAME: 'maxim',
+[34mI20150301-18:03:25.160(11)? [39m        LESS: '-R',
+[34mI20150301-18:03:25.160(11)? [39m        rvm_alias_expanded: '',
+[34mI20150301-18:03:25.161(11)? [39m        LC_CTYPE: 'en_AU.UTF-8',
+[34mI20150301-18:03:25.161(11)? [39m        rvm_wrapper_name: '',
+[34mI20150301-18:03:25.161(11)? [39m        GOPATH: '/Users/maxim/gocode',
+[34mI20150301-18:03:25.161(11)? [39m        rvm_nightly_flag: '',
+[34mI20150301-18:03:25.161(11)? [39m        rvm_ruby_make_install: '',
+[34mI20150301-18:03:25.161(11)? [39m        rvm_niceness: '',
+[34mI20150301-18:03:25.161(11)? [39m        SECURITYSESSIONID: '186bd',
+[34mI20150301-18:03:25.162(11)? [39m        _system_name: 'OSX',
+[34mI20150301-18:03:25.162(11)? [39m        MOBILE_DDP_URL: 'http://localhost:3000',
+[34mI20150301-18:03:25.162(11)? [39m        MOBILE_ROOT_URL: 'http://localhost:3000',
+[34mI20150301-18:03:25.162(11)? [39m        MONGO_OPLOG_URL: 'mongodb://127.0.0.1:3001/local',
+[34mI20150301-18:03:25.162(11)? [39m        APP_ID: '1hdd4zn1azjw2d1kcf3ye',
+[34mI20150301-18:03:25.162(11)? [39m        NODE_ENV: 'development',
+[34mI20150301-18:03:25.162(11)? [39m        HTTP_FORWARDED_COUNT: '1',
+[34mI20150301-18:03:25.162(11)? [39m        ENABLE_METEOR_SHELL: 'true',
+[34mI20150301-18:03:25.163(11)? [39m        METEOR_PARENT_PID: '13714',
+[34mI20150301-18:03:25.163(11)? [39m        METEOR_PRINT_ON_LISTEN: 'true' } } }
+[34mI20150301-18:03:25.163(11)? [39m[node-soft-mirror]: LongRunningChildProcess.isRunning returns false
+[34mI20150301-18:03:25.163(11)? [39m[node-soft-mirror]: /Users/maxim/repos/forums_meteor/test_jasmine_circle/.meteor/local/build/programs/server/assets/packages/velocity_node-soft-mirror/lib/spawnScript.js
+[34mI20150301-18:03:25.163(11)? [39m[node-soft-mirror]: The pid of the main Meteor app process is 13714
+[34mI20150301-18:03:25.163(11)? [39m[node-soft-mirror]: LongRunningChildProcess.spawn is spawning 'node'
+[34mI20150301-18:03:25.163(11)? [39m[node-soft-mirror]: LongRunningChildProcess._setPid(pid=13747)
+[34mI20150301-18:03:25.163(11)? [39m[node-soft-mirror]: Saving jasmine-server-integration pid 13747 to /Users/maxim/repos/forums_meteor/test_jasmine_circle/.meteor/local/run/jasmine-server-integration.pid
+[34mI20150301-18:03:25.163(11)? [39m[velocity-node-mirror] Mirror process forked with pid 13747
+[34mI20150301-18:03:25.229(11)? [39m[proxy-package-sync] Checking if a new package.js needs to be written because {} undefined
+[34mI20150301-18:03:25.229(11)? [39m[proxy-package-sync] Generating in-memory package.js
+[34mI20150301-18:03:25.229(11)? [39m[proxy-package-sync] Fixture files list length:  0
+[34mI20150301-18:03:25.234(11)? [39m[proxy-package-sync] Test files list length:  18
+[34mI20150301-18:03:25.234(11)? [39m[proxy-package-sync] Test file will be included in mirror tests/jasmine/client/integration/sample/spec/PlayerSpec.js
+[34mI20150301-18:03:25.234(11)? [39m[proxy-package-sync] Test file will be included in mirror tests/jasmine/client/integration/sample/spec/SpecMatchers.js
+[34mI20150301-18:03:25.234(11)? [39m[proxy-package-sync] Test file will be included in mirror tests/jasmine/client/integration/sample/src/Player.js
+[34mI20150301-18:03:25.234(11)? [39m[proxy-package-sync] Test file will be included in mirror tests/jasmine/client/integration/sample/src/Song.js
+[34mI20150301-18:03:25.234(11)? [39m[proxy-package-sync] Test file will not be included in mirror tests/jasmine/client/unit/sample/spec/PlayerSpec.js
+[34mI20150301-18:03:25.235(11)? [39m[proxy-package-sync] Test file will not be included in mirror tests/jasmine/client/unit/sample/spec/SpecMatchers.js
+[34mI20150301-18:03:25.235(11)? [39m[proxy-package-sync] Test file will not be included in mirror tests/jasmine/client/unit/sample/src/Player.js
+[34mI20150301-18:03:25.235(11)? [39m[proxy-package-sync] Test file will not be included in mirror tests/jasmine/client/unit/sample/src/Song.js
+[34mI20150301-18:03:25.235(11)? [39m[proxy-package-sync] Test file will be included in mirror tests/jasmine/server/integration/sample/spec/PlayerSpec.js
+[34mI20150301-18:03:25.235(11)? [39m[proxy-package-sync] Test file will be included in mirror tests/jasmine/server/integration/sample/spec/SpecMatchers.js
+[34mI20150301-18:03:25.236(11)? [39m[proxy-package-sync] Test file will be included in mirror tests/jasmine/server/integration/sample/src/Player.js
+[34mI20150301-18:03:25.236(11)? [39m[proxy-package-sync] Test file will be included in mirror tests/jasmine/server/integration/sample/src/Song.js
+[34mI20150301-18:03:25.236(11)? [39m[proxy-package-sync] Test file will not be included in mirror tests/jasmine/server/unit/package-stubs.js
+[34mI20150301-18:03:25.236(11)? [39m[proxy-package-sync] Test file will not be included in mirror tests/jasmine/server/unit/packageMocksSpec.js
+[34mI20150301-18:03:25.236(11)? [39m[proxy-package-sync] Test file will not be included in mirror tests/jasmine/server/unit/sample/spec/PlayerSpec.js
+[34mI20150301-18:03:25.236(11)? [39m[proxy-package-sync] Test file will not be included in mirror tests/jasmine/server/unit/sample/spec/SpecMatchers.js
+[34mI20150301-18:03:25.236(11)? [39m[proxy-package-sync] Test file will not be included in mirror tests/jasmine/server/unit/sample/src/Player.js
+[34mI20150301-18:03:25.236(11)? [39m[proxy-package-sync] Test file will not be included in mirror tests/jasmine/server/unit/sample/src/Song.js
+[34mI20150301-18:03:25.238(11)? [39m[proxy-package-sync] Comparing:
+[34mI20150301-18:03:25.238(11)? [39m[proxy-package-sync] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[34mI20150301-18:03:25.238(11)? [39m[proxy-package-sync] - - - - - - - - - currentPackageJS: - - - - - - - - - - - - -
+[34mI20150301-18:03:25.238(11)? [39mPackage.describe({
+[34mI20150301-18:03:25.238(11)? [39m	name: "velocity:test-proxy",
+[34mI20150301-18:03:25.238(11)? [39m	summary: "Dynamically created package to expose test files to mirrors",
+[34mI20150301-18:03:25.238(11)? [39m	version: "0.0.4",
+[34mI20150301-18:03:25.238(11)? [39m	debugOnly: true
+[34mI20150301-18:03:25.239(11)? [39m});
+[34mI20150301-18:03:25.239(11)? [39m
+[34mI20150301-18:03:25.239(11)? [39mPackage.onUse(function (api) {
+[34mI20150301-18:03:25.239(11)? [39m	api.use("coffeescript", ["client", "server"]);
+[34mI20150301-18:03:25.239(11)? [39m	api.add_files("tests/jasmine/client/integration/sample/spec/PlayerSpec.js",["client"]);
+[34mI20150301-18:03:25.239(11)? [39m	api.add_files("tests/jasmine/client/integration/sample/spec/SpecMatchers.js",["client"]);
+[34mI20150301-18:03:25.239(11)? [39m	api.add_files("tests/jasmine/client/integration/sample/src/Player.js",["client"]);
+[34mI20150301-18:03:25.239(11)? [39m	api.add_files("tests/jasmine/client/integration/sample/src/Song.js",["client"]);
+[34mI20150301-18:03:25.239(11)? [39m	api.add_files("tests/jasmine/server/integration/sample/spec/PlayerSpec.js",["server"]);
+[34mI20150301-18:03:25.239(11)? [39m	api.add_files("tests/jasmine/server/integration/sample/spec/SpecMatchers.js",["server"]);
+[34mI20150301-18:03:25.239(11)? [39m	api.add_files("tests/jasmine/server/integration/sample/src/Player.js",["server"]);
+[34mI20150301-18:03:25.240(11)? [39m	api.add_files("tests/jasmine/server/integration/sample/src/Song.js",["server"]);
+[34mI20150301-18:03:25.240(11)? [39m});
+[34mI20150301-18:03:25.240(11)? [39m[proxy-package-sync] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[34mI20150301-18:03:25.240(11)? [39m[proxy-package-sync] - - - - - - - - - generatedPackageJsContent - - - - - - - - -
+[34mI20150301-18:03:25.240(11)? [39mPackage.describe({
+[34mI20150301-18:03:25.240(11)? [39m	name: "velocity:test-proxy",
+[34mI20150301-18:03:25.240(11)? [39m	summary: "Dynamically created package to expose test files to mirrors",
+[34mI20150301-18:03:25.240(11)? [39m	version: "0.0.4",
+[34mI20150301-18:03:25.240(11)? [39m	debugOnly: true
+[34mI20150301-18:03:25.240(11)? [39m});
+[34mI20150301-18:03:25.240(11)? [39m
+[34mI20150301-18:03:25.240(11)? [39mPackage.onUse(function (api) {
+[34mI20150301-18:03:25.240(11)? [39m	api.use("coffeescript", ["client", "server"]);
+[34mI20150301-18:03:25.241(11)? [39m	api.add_files("tests/jasmine/client/integration/sample/spec/PlayerSpec.js",["client"]);
+[34mI20150301-18:03:25.241(11)? [39m	api.add_files("tests/jasmine/client/integration/sample/spec/SpecMatchers.js",["client"]);
+[34mI20150301-18:03:25.241(11)? [39m	api.add_files("tests/jasmine/client/integration/sample/src/Player.js",["client"]);
+[34mI20150301-18:03:25.241(11)? [39m	api.add_files("tests/jasmine/client/integration/sample/src/Song.js",["client"]);
+[34mI20150301-18:03:25.241(11)? [39m	api.add_files("tests/jasmine/server/integration/sample/spec/PlayerSpec.js",["server"]);
+[34mI20150301-18:03:25.241(11)? [39m	api.add_files("tests/jasmine/server/integration/sample/spec/SpecMatchers.js",["server"]);
+[34mI20150301-18:03:25.241(11)? [39m	api.add_files("tests/jasmine/server/integration/sample/src/Player.js",["server"]);
+[34mI20150301-18:03:25.241(11)? [39m	api.add_files("tests/jasmine/server/integration/sample/src/Song.js",["server"]);
+[34mI20150301-18:03:25.241(11)? [39m});
+[34mI20150301-18:03:25.241(11)? [39m[proxy-package-sync] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[34mI20150301-18:03:25.241(11)? [39m[proxy-package-sync] No changes to package.js file required
+[34mW20150301-18:03:25.264(11)? (STDERR) [39m[35mconnections property is deprecated. Use getConnections() method[39m
+[34mI20150301-18:03:25.376(11)? [39m[sanjo:jasmine]: loading mock file: /Users/maxim/repos/forums_meteor/test_jasmine_circle/tests/jasmine/server/unit/package-stubs.js
+[34mI20150301-18:03:25.376(11)? [39m[sanjo:jasmine]: loading source file: /Users/maxim/repos/forums_meteor/test_jasmine_circle/tests/jasmine/server/unit/package-stubs.js
+[34mI20150301-18:03:25.377(11)? [39m[velocity] File changed: tests/jasmine/server/unit/package-stubs.js
+[34mI20150301-18:03:25.380(11)? [39m[velocity] File changed: tests/jasmine/server/unit/packageMocksSpec.js
+[34mI20150301-18:03:25.431(11)? [39m[sanjo:jasmine]: loading source file: /Users/maxim/repos/forums_meteor/test_jasmine_circle/test_jasmine_circle.js
+[34mI20150301-18:03:25.436(11)? [39m[sanjo:jasmine]: loading source file: /Users/maxim/repos/forums_meteor/test_jasmine_circle/tests/jasmine/server/unit/package-stubs.js
+[34mI20150301-18:03:25.452(11)? [39m[sanjo:jasmine]: loading source file: /Users/maxim/repos/forums_meteor/test_jasmine_circle/tests/jasmine/server/unit/packageMocksSpec.js
+[34mI20150301-18:03:25.459(11)? [39m[sanjo:jasmine]: loading source file: /Users/maxim/repos/forums_meteor/test_jasmine_circle/tests/jasmine/server/unit/sample/spec/PlayerSpec.js
+[34mI20150301-18:03:25.462(11)? [39m[sanjo:jasmine]: loading source file: /Users/maxim/repos/forums_meteor/test_jasmine_circle/tests/jasmine/server/unit/sample/spec/SpecMatchers.js
+[34mI20150301-18:03:25.463(11)? [39m[sanjo:jasmine]: loading source file: /Users/maxim/repos/forums_meteor/test_jasmine_circle/tests/jasmine/server/unit/sample/src/Player.js
+[34mI20150301-18:03:25.464(11)? [39m[sanjo:jasmine]: loading source file: /Users/maxim/repos/forums_meteor/test_jasmine_circle/tests/jasmine/server/unit/sample/src/Song.js
+PASSED jasmine-server-unit : Player => Player should be able to play a Song
+PASSED jasmine-server-unit : when song has been paused:Player => Player when song has been paused should indicate that the song is currently paused
+PASSED jasmine-server-unit : when song has been paused:Player => Player when song has been paused should be possible to resume
+PASSED jasmine-server-unit : Player => Player tells the current song if the user has made it a favorite
+[34mI20150301-18:03:26.502(11)? [39m[velocity] Mirror registered. Handshaking with mirror...
+[34mI20150301-18:03:26.542(11)? [39m[velocity] Mirror registered. Handshaking with mirror...
+PASSED jasmine-server-integration : Player => Player should be able to play a Song
+PASSED jasmine-server-integration : when song has been paused:Player => Player when song has been paused should indicate that the song is currently paused
+PASSED jasmine-server-integration : when song has been paused:Player => Player when song has been paused should be possible to resume
+PASSED jasmine-server-integration : Player => Player tells the current song if the user has made it a favorite
+[34mI20150301-18:03:26.815(11)? [39mstream error Network error: ws://localhost:58427/websocket: connect ECONNREFUSED
+[34mI20150301-18:03:26.841(11)? [39m[velocity] Connected to mirror, setting state to ready { framework: 'jasmine-server-integration',
+[34mI20150301-18:03:26.841(11)? [39m  port: '58427',
+[34mI20150301-18:03:26.841(11)? [39m  host: 'http://localhost:58427/' }
+[34mI20150301-18:03:26.858(11)? [39m[velocity] Connected to mirror, setting state to ready { framework: 'jasmine-client-integration',
+[34mI20150301-18:03:26.858(11)? [39m  port: '58426',
+[34mI20150301-18:03:26.858(11)? [39m  host: 'http://localhost:58426/' }
+PASSED jasmine-client-integration : Player => Player should be able to play a Song
+PASSED jasmine-client-integration : when song has been paused:Player => Player when song has been paused should indicate that the song is currently paused
+PASSED jasmine-client-integration : when song has been paused:Player => Player when song has been paused should be possible to resume
+PASSED jasmine-client-integration : Player => Player tells the current song if the user has made it a favorite
+PASSED jasmine-client-integration : #resume:Player => Player #resume should throw an exception if song is already playing
+PASSED jasmine-client-unit : Player => Player should be able to play a Song
+PASSED jasmine-client-unit : when song has been paused:Player => Player when song has been paused should indicate that the song is currently paused
+PASSED jasmine-client-unit : when song has been paused:Player => Player when song has been paused should be possible to resume
+PASSED jasmine-client-unit : Player => Player tells the current song if the user has made it a favorite
+PASSED jasmine-client-unit : #resume:Player => Player #resume should throw an exception if song is already playing
+TESTS RAN SUCCESSFULLY

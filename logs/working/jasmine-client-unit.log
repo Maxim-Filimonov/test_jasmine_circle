@@ -1,0 +1,17 @@
+Spawn script arguments:
+parentPid: 13714
+command: /Users/maxim/repos/forums_meteor/test_jasmine_circle/.meteor/local/build/programs/server/npm/sanjo:karma/node_modules/karma/bin/karma
+commandArguments: [ 'start',
+  '/Users/maxim/repos/forums_meteor/test_jasmine_circle/.meteor/local/karma/jasmine-client-unit.config.js' ]
+[32mINFO [karma]: [39mKarma v0.12.31 server started at http://localhost:9876/
+[32mINFO [launcher]: [39mStarting browser Chrome
+[33mWARN [watcher]: [39mPattern "/Users/maxim/repos/forums_meteor/test_jasmine_circle/tests/jasmine/client/unit/**/*-{stub,stubs,mock,mocks}.{js,coffee,litcoffee,coffee.md}" does not match any file.
+[32mINFO [Chrome 40.0.2214 (Mac OS X 10.10.2)]: [39mConnected on socket Wfx2htJZGqAbkyIDJYxd with id 71646841
+Chrome 40.0.2214 (Mac OS X 10.10.2): Executed 0 of 5[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2KChrome 40.0.2214 (Mac OS X 10.10.2): Executed 1 of 5[32m SUCCESS[39m (0 secs / 0.004 secs)
+[1A[2KChrome 40.0.2214 (Mac OS X 10.10.2): Executed 2 of 5[32m SUCCESS[39m (0 secs / 0.007 secs)
+[1A[2KChrome 40.0.2214 (Mac OS X 10.10.2): Executed 3 of 5[32m SUCCESS[39m (0 secs / 0.007 secs)
+[1A[2KChrome 40.0.2214 (Mac OS X 10.10.2): Executed 4 of 5[32m SUCCESS[39m (0 secs / 0.008 secs)
+[1A[2KChrome 40.0.2214 (Mac OS X 10.10.2): Executed 5 of 5[32m SUCCESS[39m (0 secs / 0.009 secs)
+[1A[2KChrome 40.0.2214 (Mac OS X 10.10.2): Executed 5 of 5[32m SUCCESS[39m (0.088 secs / 0.009 secs)
+Parent process is dead! Exiting.

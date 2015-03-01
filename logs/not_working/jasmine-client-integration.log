@@ -1,0 +1,25 @@
+Spawn script arguments:
+parentPid: 14372
+command: /Users/maxim/.meteor/packages/meteor-tool/.1.0.41.1e5lsy3++os.osx.x86_64+web.browser+web.cordova/meteor-tool-os.osx.x86_64/dev_bundle/bin/node
+commandArguments: [ '/Users/maxim/repos/forums_meteor/test_jasmine_circle/.meteor/local/build/main.js' ]
+** You've set up some data subscriptions with Meteor.publish(), but
+** you still have autopublish turned on. Because autopublish is still
+** on, your Meteor.publish() calls won't have much effect. All data
+** will still be sent to all clients.
+**
+** Turn off autopublish by removing the autopublish package:
+**
+**   $ meteor remove autopublish
+**
+** .. and make sure you have Meteor.publish() and Meteor.subscribe() calls
+** for each collection that you want clients to see.
+
+[velocity] Mirror detected - Not adding velocity core
+[velocity] Not adding mirror-registry because NODE_ENV is development  and IS_MIRROR is true
+[velocity-mirror] Mirror is initializing...
+[proxy-package-sync] Mirror detected - Not adding code
+[velocity-mirror] Mirror started. Connecting via DDP to parent
+LISTENING
+[velocity] Mirror connected to parent. Registering mirror...
+[velocity-mirror] Mirror is ready.
+Parent process is dead! Exiting.
